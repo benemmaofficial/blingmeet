@@ -1,4 +1,4 @@
-<?php
+<?php 
 ini_set('max_execution_time',90);
 require('assets/includes/config.php');
 $mysqli = new mysqli($db_host, $db_username, $db_password,$db_name);
